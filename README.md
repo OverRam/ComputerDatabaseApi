@@ -2,8 +2,8 @@ Rest API accepts Computer Objects in JSON format, at least 1 cost must contain a
 
 JSON format:<br>
      {<br>
-         "date": "2022-01-03",<br>
-         "name": "computer 1",<br>
+         "date": "YYYY-MM-DD",<br>
+         "name": "name",<br>
          "costUsd": 345.0<br>
          "costPln": 345.0<br>
      }<br><br>
@@ -14,10 +14,10 @@ password: 123<br>
 to be changed in the resources/application.properties file<br><br>
 http://localhost:28852/computer/ homepage<br>
 Endpoints<br>
-GET: add -adds a computer<br>
-GET: addList -adds a list of computers<br>
-POST: listByName -returns a list of computers sorted in date order<br>
-POST: listByDate -returns a list of computers sorted in date order<br>
+POST: add -adds a computer<br>
+POST: addList -adds a list of computers<br>
+GET: listByName?name= -returns a list of computers sorted in date order<br>
+GET: listByDate?date= -returns a list of computers sorted in date order, date format YYYY-MM-DD<br>
 
 If the data is valid but the element is not found, it returns the HTTP code NOT_FOUND<br>
 If the data is incorrect, it returns the HTTP code BAD_REQUEST<br>
