@@ -15,6 +15,7 @@ to be changed in the resources/application.properties file
 http://localhost:28852/computer/ homepage
 
 Endpoints
+<br>
 add adds a computer
 addList adds a list of computers
 listByName returns a list of computers sorted in date order
