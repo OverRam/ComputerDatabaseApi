@@ -6,14 +6,13 @@ JSON format:<br>
          "name": "computer 1",<br>
          "costUsd": 345.0<br>
          "costPln": 345.0<br>
-     }<br>
+     }<br><br>
+     
 http://localhost:28852/h2 the url to the console<br>
 login: sa<br>
 password: 123<br>
-to be changed in the resources/application.properties file
-<br>
-http://localhost:28852/computer/ homepage
-<br>
+to be changed in the resources/application.properties file<br><br>
+http://localhost:28852/computer/ homepage<br>
 Endpoints<br>
 GET add adds a computer<br>
 GET addList adds a list of computers<br>
