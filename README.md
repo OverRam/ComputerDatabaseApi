@@ -23,5 +23,5 @@ If the data is valid but the element is not found, it returns the HTTP code NOT_
 If the data is incorrect, it returns the HTTP code BAD_REQUEST<br>
 If everything was successful, it returns the HTTP OK code<br><br>
 
-If the Api of the bank does not return a value, the object is still saved in the database<br><br>
+If the Api of the bank does not return a value, the object is still saved in the database<br>
 If there is an error in the list of computers, the entire list is not saved
