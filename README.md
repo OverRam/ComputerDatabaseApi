@@ -8,12 +8,12 @@ JSON format:<br>
          "costPln": 345.0<br>
      }<br><br>
      
-http://localhost:28852/h2 the url to the console<br>
+http://localhost:28852/h2 -the url to the console<br>
 login: sa<br>
 password: 123<br>
 to be changed in the resources/application.properties file<br><br>
-http://localhost:28852/computer/ homepage<br>
-Endpoints<br>
+http://localhost:28852/computer/ -the url homepage<br>
+Endpoints<br><br>
 POST: <br>
 add -adds a computer<br>
 addList -adds a list of computers<br><br>
