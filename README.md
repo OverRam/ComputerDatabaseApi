@@ -14,10 +14,12 @@ password: 123<br>
 to be changed in the resources/application.properties file<br><br>
 http://localhost:28852/computer/ homepage<br>
 Endpoints<br>
-POST: add -adds a computer<br>
-POST: addList -adds a list of computers<br>
-GET: listByName?name= -returns a list of computers sorted in date order<br>
-GET: listByDate?date= -returns a list of computers sorted in date order, date format YYYY-MM-DD<br>
+POST: <br>
+add -adds a computer<br>
+addList -adds a list of computers<br><br>
+GET: <br>
+listByName?name= -returns a list of computers sorted in date order<br>
+listByDate?date= -returns a list of computers sorted in date order, date format YYYY-MM-DD<br>
 
 If the data is valid but the element is not found, it returns the HTTP code NOT_FOUND<br>
 If the data is incorrect, it returns the HTTP code BAD_REQUEST<br>
