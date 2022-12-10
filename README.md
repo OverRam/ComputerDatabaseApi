@@ -35,4 +35,4 @@ This client connects via rest API. Currently, you can: Search for a computer by 
 
 Format:
 
-<faktura> <komputer> <date>2022-12-20</date> <name>kompu</name> <costUsd>213</costUsd> <costPln>0</costPln> </komputer> <komputer> <date>2022-12-20</date> <name>kompu</name> <costUsd>213</costUsd> <costPln>0</costPln> </komputer> </faktura>
+`<faktura> <komputer> <date>2022-12-20</date> <name>kompu</name> <costUsd>213</costUsd> <costPln>0</costPln> </komputer> <komputer> <date>2022-12-20</date> <name>kompu</name> <costUsd>213</costUsd> <costPln>0</costPln> </komputer> </faktura>`
